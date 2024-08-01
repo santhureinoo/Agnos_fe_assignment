@@ -10,5 +10,4 @@ export interface HighLightImgProps {
 export interface QuestionProps {
     baseImg: string;
     highLightImgs: HighLightImgProps[];
-    questionLabel?: string;
 }

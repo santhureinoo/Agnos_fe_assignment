@@ -51,11 +51,9 @@ export const QUESTIONS: QuestionProps[] = [
     {
         baseImg: ABDOMINAL_BASE_IMG,
         highLightImgs: ABDOMINAL_HIGHLIGHT_IMGS,
-        questionLabel: "Question 1 (Please select your problem area)"
     },
     {
         baseImg: FINGER_BASE_IMG,
         highLightImgs: FINGER_HIGHLIGHT_IMGS,
-        questionLabel: "Question 2 (Please select your problem area)"
     }
 ]

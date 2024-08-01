@@ -5,7 +5,7 @@ import { Link, Outlet } from "react-router-dom";
 function Navigation() {
     return (
         <React.Fragment>
-            <Navbar fluid rounded>
+            <Navbar className="shadow-lg py-4" fluid rounded>
                 <Navbar.Brand as={Link} href="/">
                     <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">Agnos</span>
                 </Navbar.Brand>

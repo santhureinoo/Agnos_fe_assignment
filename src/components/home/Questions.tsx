@@ -7,16 +7,16 @@ interface Props {
 }
 
 function Questions({ questions }: Props) {
-    return <React.Fragment>
+    return <div className="p-8">
+        <h1 className="font-bold lg:text-2xl md:text-lg text-md text-center">PLEASE SELECT YOUR PROBLEM AREA</h1>
         {
             questions.map((quest, index) => {
                 return < div className="px-4 text-center" key={index} >
-                    <h1 className="font-bold text-lg">{quest.questionLabel}</h1>
                     <Question baseImg={quest.baseImg} highLightImgs={quest.highLightImgs}></Question>
                 </div >
             })
         }
-    </React.Fragment>
+    </div>
 
 }
 
